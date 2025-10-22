@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: 0;
+
+}
+body{
+	background-image: url('../image/logo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container{
+	background-color: #80A1BA;
+	width: 50%;
+	padding: 30px;
+	margin-top: 50px;
+	border-radius: 10px;
+	border-width: 20px;
+	border-color: black;
+}
+
+label{
+	color: yellow;
+	margin-top: 10px ;
+}
+
+input{
+	margin-top: 10px;
+	width: 400px;
+}
+
+button{
+	width: 400px;
+	margin-top: 10px;
+}
+select{
+	width: 400px;
+	margin-top: 10px;
+}
