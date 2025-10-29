@@ -24,25 +24,46 @@
 				maxlength="50" required autocomplete="off">
 			</div>
 			<div class="md-3">
-				<label for="escolhaPets">Escolha seu Pet</label>
-				<select id="escolhaPets" name="escolhaPets">
-					<option value="nenhum">Nenhum</option>
-					<option value="cachorro">Cachorro</option>
-					<option value="gato">Gato</option>
-					<option value="peixe">Peixe</option>
-					<option value="passaro">Pássaro</option>
-					<option value="passaro">Pato</option>
-					<option value="passaro">Sapo</option>
-				</select>
 			</div>
 			<div class="md-3">
+				<label>Escolha seu pet:</label>
+				<div class="md-3">
+				<label>Cachorro</label><input type="checkbox" name="cachorro">
+					</div>
+				<div class="md-3">
+				<label>Gato</label><input type="checkbox" name="gato">
+				</div>
+				<div class="md-3">
+				<label>Peixe</label><input type="checkbox" name="peixe">
+				</div>
+				<div class="md-3">
+				<label>Passaro</label><input type="checkbox" name="passaro">
+				</div>
+
+				<form name="cadastro" method="post" >
+					<input type="hidden" name="user" values="admin">
+					<input type="hidden" name="nivel" values="2">
+					</form>
+					<label>Escolha seu Estado</label>
+					<select name="Estados">
+						<option values="SP">São Paulo</option>
+						<option values="RJ">Rio de Janeiro</option>
+						<option values="MG">Minas Gerais</option>
+						<option values="MA">Bahia</option>
+					</select>
+				<div class="md-3">
 				<button class="btn btn-primary" type="submit">Enviar</button>
 			</div>
 			<div class="md-3">
 				<button class="btn btn-success" type="reset">Limpar</button>
 			</div>
 		</form>
+
 	</main>
+	
+
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
